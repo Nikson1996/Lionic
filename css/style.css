@@ -324,6 +324,7 @@ body {
     font-weight: 600;
     font-size: 20px;
     line-height: 130%;
+    text-align: center;
     color: #1C1C1C;
 }
 
@@ -367,6 +368,7 @@ body {
     overflow: hidden;
     border: 1px solid #E4E4E4;
     border-radius: 5px;
+    height: 100%;
 }
 
 .blog-preview-image {
@@ -631,10 +633,6 @@ body {
     transition: background-color 0.3s ease-in-out,  border-color 0.3s ease-in-out;
 }
 
-.form-input:nth-child(-n+2) {
-    margin-bottom: 19px;
-}
-
 .form-input:focus {
     outline: none;
     border-color: #71A7E2;
@@ -708,6 +706,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 14px;
 }
 
 .form-right {
@@ -871,4 +870,8 @@ body {
 .social-link-mail:active svg {
     fill: transparent;
     stroke: #3172B9;
+}
+
+.burger {
+    display: none;
 }
